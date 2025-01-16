@@ -1,0 +1,9 @@
+photorec-docker/
+├── .github/
+│   └── workflows/
+│       └── docker-publish.yml
+├── docs/
+│   └── usage.md
+├── Dockerfile
+├── README.md
+└── .dockerignore
