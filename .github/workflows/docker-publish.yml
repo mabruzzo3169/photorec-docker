@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: mabruzzo3169/photorec:latest
+          tags: mabruzzo/photorec:latest
