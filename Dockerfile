@@ -4,6 +4,7 @@ FROM debian:bullseye-slim
 RUN apt-get update && \
     apt-get install -y \
     testdisk \
+    tmux \
     && rm -rf /var/lib/apt/lists/*
 
 # Create a directory for mounting external volumes
