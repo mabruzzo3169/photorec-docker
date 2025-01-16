@@ -9,8 +9,5 @@ RUN apt-get update && \
 # Create a directory for mounting external volumes
 WORKDIR /data
 
-# Run PhotoRec as the entrypoint
-ENTRYPOINT ["photorec"]
-
-# Default command (can be overridden)
-CMD ["/data"]
+# Keep container running
+CMD ["tail", "-f", "/dev/null"]
